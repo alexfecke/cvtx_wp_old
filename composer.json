@@ -30,6 +30,18 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:alexfecke/cvtx_plugin.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:alexfecke/cvtx_plugin_spd.git"
+    }
+    {
+      "type": "vcs",
+      "url": "git@github.com:alexfecke/cvtx_theme_spd_bb.git"
     }
   ],
   "require": {
@@ -38,7 +50,10 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.7.3",
     "oscarotero/env": "^1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "alexfecke/cvtx_plugin": "master",
+    "alexfecke/cvtx_plugin_spd": "master",
+    "alexfecke/cvtx_theme_spd_bb": "master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
