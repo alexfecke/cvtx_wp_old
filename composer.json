@@ -38,7 +38,7 @@
     {
       "type": "vcs",
       "url": "git@github.com:alexfecke/cvtx_plugin_spd.git"
-    }
+    },
     {
       "type": "vcs",
       "url": "git@github.com:alexfecke/cvtx_theme_spd_bb.git"
