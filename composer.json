@@ -33,6 +33,10 @@
       "no-api": true
     },
     {
+        "type": "composer",
+        "url": "https://wp-languages.github.io"
+    },
+    {
       "type": "vcs",
       "url": "git@github.com:alexfecke/cvtx_plugin.git",
       "no-api": true
@@ -54,7 +58,8 @@
     "vlucas/phpdotenv": "^2.0.1",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "johnpbloch/wordpress": "^4.7"
+    "johnpbloch/wordpress": "^4.7",
+    "koodimonni-language/core-de_de": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1",
@@ -67,6 +72,11 @@
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "dropin-paths": {
+      "web/app/languages": ["vendor:koodimonni-language"],
+      "web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+      "web/app/languages/themes/": ["vendor:koodimonni-theme-language"]
     },
     "wordpress-install-dir": "web/wp"
   },
