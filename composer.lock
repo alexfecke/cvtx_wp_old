@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ad6f493b8307cd0b55e1b5a5d14fc108",
+    "content-hash": "df5e164696853a52b9e2d0fa3b11109a",
     "packages": [
         {
             "name": "composer/installers",
@@ -104,7 +104,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-13 19:46:30"
+            "time": "2016-04-13T19:46:30+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -112,16 +112,54 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "eef7c0520b1e7187cd2cd7540dc997c4c3b0340a"
+                "reference": "9f1f8eb6c37d10d73b9d7946c0ab5425a5492a9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/eef7c0520b1e7187cd2cd7540dc997c4c3b0340a",
-                "reference": "eef7c0520b1e7187cd2cd7540dc997c4c3b0340a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/9f1f8eb6c37d10d73b9d7946c0ab5425a5492a9a",
+                "reference": "9f1f8eb6c37d10d73b9d7946c0ab5425a5492a9a",
                 "shasum": ""
             },
             "require": {
+                "johnpbloch/wordpress-core": "4.7.3",
                 "johnpbloch/wordpress-core-installer": "~0.2",
+                "php": ">=5.3.2"
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2017-03-18T04:47:24+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress-core",
+            "version": "4.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core.git",
+                "reference": "21255f593ac7db93892724321f468c276b15aa65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/21255f593ac7db93892724321f468c276b15aa65",
+                "reference": "21255f593ac7db93892724321f468c276b15aa65",
+                "shasum": ""
+            },
+            "require": {
                 "php": ">=5.3.2"
             },
             "type": "wordpress-core",
@@ -139,9 +177,10 @@
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
-                "cms"
+                "cms",
+                "wordpress"
             ],
-            "time": "2017-03-06 16:01:58"
+            "time": "2017-03-06T18:43:41+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -189,7 +228,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-06-11 15:15:30"
+            "time": "2015-06-11T15:15:30+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -231,7 +270,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2016-05-08 17:14:32"
+            "time": "2016-05-08T17:14:32+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -288,7 +327,7 @@
             "keywords": [
                 "wordpress wp bcrypt password"
             ],
-            "time": "2016-03-01 16:27:06"
+            "time": "2016-03-01T16:27:06+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -338,10 +377,124 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01 10:05:43"
+            "time": "2016-09-01T10:05:43+00:00"
         }
     ],
     "packages-dev": [
+        {
+            "name": "cvtx/cvtx",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:alexfecke/cvtx_plugin.git",
+                "reference": "ba62f97d31620e72b80e2816959f6d7e44b54892"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin/zipball/ba62f97d31620e72b80e2816959f6d7e44b54892",
+                "reference": "ba62f97d31620e72b80e2816959f6d7e44b54892",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.12",
+                "php": ">=5.5"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Fecke",
+                    "email": "alex@conventix.eu",
+                    "homepage": "https://conventix.eu"
+                }
+            ],
+            "description": "cvtx Agenda tool",
+            "homepage": "https://conventix.eu",
+            "keywords": [
+                "cvtx",
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2017-03-24T09:31:24+00:00"
+        },
+        {
+            "name": "cvtx/cvtx_spd",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:alexfecke/cvtx_plugin_spd.git",
+                "reference": "158a57e55de393a438831d03ff7cd3f4c63b4bd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin_spd/zipball/158a57e55de393a438831d03ff7cd3f4c63b4bd1",
+                "reference": "158a57e55de393a438831d03ff7cd3f4c63b4bd1",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.12",
+                "php": ">=5.5"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Fecke",
+                    "email": "alex@conventix.eu",
+                    "homepage": "https://conventix.eu"
+                }
+            ],
+            "description": "cvtx Agenda tool SPD",
+            "homepage": "https://conventix.eu",
+            "keywords": [
+                "cvtx",
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2017-03-24T09:31:35+00:00"
+        },
+        {
+            "name": "cvtx/cvtx_theme_spd_bb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:alexfecke/cvtx_theme_spd_bb.git",
+                "reference": "1fd90b3d0b2d4194496ee5b40c565f25a7e742e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spd_bb/zipball/1fd90b3d0b2d4194496ee5b40c565f25a7e742e5",
+                "reference": "1fd90b3d0b2d4194496ee5b40c565f25a7e742e5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.12",
+                "php": ">=5.5"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Fecke",
+                    "email": "alex@conventix.eu",
+                    "homepage": "https://conventix.eu"
+                }
+            ],
+            "description": "cvtx Agenda tool SPD Brandenburg theme",
+            "homepage": "https://conventix.eu",
+            "keywords": [
+                "cvtx",
+                "theme",
+                "wordpress"
+            ],
+            "time": "2017-03-24T09:31:12+00:00"
+        },
         {
             "name": "squizlabs/php_codesniffer",
             "version": "2.8.1",
@@ -418,12 +571,16 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-03-01 22:17:45"
+            "time": "2017-03-01T22:17:45+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "cvtx/cvtx": 20,
+        "cvtx/cvtx_spd": 20,
+        "cvtx/cvtx_theme_spd_bb": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
