@@ -55,9 +55,9 @@
     "johnpbloch/wordpress": "4.7.3",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "alexfecke/cvtx_plugin": "dev-master",
-    "alexfecke/cvtx_plugin_spd": "dev-master",
-    "alexfecke/cvtx_theme_spd_bb": "dev-master"
+    "cvtx/cvtx": "dev-master",
+    "cvtx/cvtx_spd": "dev-master",
+    "cvtx/cvtx_theme_spd_bb": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
