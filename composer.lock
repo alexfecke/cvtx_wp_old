@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "df5e164696853a52b9e2d0fa3b11109a",
+    "content-hash": "4b41301e0d441e0043f21b7641b1b7c6",
     "packages": [
         {
             "name": "composer/installers",
@@ -417,7 +417,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2017-03-24T09:31:24+00:00"
+            "time": "2017-03-24 09:31:24"
         },
         {
             "name": "cvtx/cvtx_spd",
@@ -455,7 +455,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2017-03-24T09:31:35+00:00"
+            "time": "2017-03-24 09:31:35"
         },
         {
             "name": "cvtx/cvtx_theme_spd_bb",
@@ -493,7 +493,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2017-03-24T09:31:12+00:00"
+            "time": "2017-03-24 09:31:12"
         },
         {
             "name": "squizlabs/php_codesniffer",
