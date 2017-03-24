@@ -74,7 +74,7 @@
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
     "dropin-paths": {
-      "web/app/languages": ["vendor:koodimonni-language"],
+      "web/app/languages/": ["vendor:koodimonni-language"],
       "web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
       "web/app/languages/themes/": ["vendor:koodimonni-theme-language"]
     },
