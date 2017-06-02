@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba141132f739705d77f73e7407542a5b",
+    "content-hash": "7e8029876af42050420c2e195dfc8e9e",
     "packages": [
         {
             "name": "composer/installers",
@@ -232,10 +232,10 @@
         },
         {
             "name": "koodimonni-language/core-de_de",
-            "version": "4.7.4",
+            "version": "4.7.5",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.7.4/de_DE.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.7.5/de_DE.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -447,16 +447,16 @@
     "packages-dev": [
         {
             "name": "cvtx/cvtx",
-            "version": "dev-master",
+            "version": "dev-weserems",
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_plugin.git",
-                "reference": "8f3cf048cf16847e5c89a377cdd61e0e7353b3ee"
+                "reference": "704b461457e039450e5ae3cf9639c7e3e7fbd5ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin/zipball/8f3cf048cf16847e5c89a377cdd61e0e7353b3ee",
-                "reference": "8f3cf048cf16847e5c89a377cdd61e0e7353b3ee",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin/zipball/704b461457e039450e5ae3cf9639c7e3e7fbd5ab",
+                "reference": "704b461457e039450e5ae3cf9639c7e3e7fbd5ab",
                 "shasum": ""
             },
             "require": {
@@ -481,20 +481,20 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2017-03-24T13:13:32+00:00"
+            "time": "2017-06-02T08:12:41+00:00"
         },
         {
             "name": "cvtx/cvtx_spd",
-            "version": "dev-master",
+            "version": "dev-weserems",
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_plugin_spd.git",
-                "reference": "158a57e55de393a438831d03ff7cd3f4c63b4bd1"
+                "reference": "88d29f2bd159db14e330f608de930ec09385365a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin_spd/zipball/158a57e55de393a438831d03ff7cd3f4c63b4bd1",
-                "reference": "158a57e55de393a438831d03ff7cd3f4c63b4bd1",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin_spd/zipball/88d29f2bd159db14e330f608de930ec09385365a",
+                "reference": "88d29f2bd159db14e330f608de930ec09385365a",
                 "shasum": ""
             },
             "require": {
@@ -519,11 +519,11 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2017-03-24T09:31:35+00:00"
+            "time": "2017-06-01 12:59:55"
         },
         {
             "name": "cvtx/cvtx_theme_spd_bb",
-            "version": "dev-master",
+            "version": "dev-weserems",
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_theme_spd_bb.git",
@@ -557,20 +557,20 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2017-03-24T13:13:55+00:00"
+            "time": "2017-03-24 13:13:55"
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.9.0",
+            "version": "2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "f7dfecbee89d68ab475a6c9e17d22bc9b69aed97"
+                "reference": "dcbed1074f8244661eecddfc2a675430d8d33f62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/f7dfecbee89d68ab475a6c9e17d22bc9b69aed97",
-                "reference": "f7dfecbee89d68ab475a6c9e17d22bc9b69aed97",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/dcbed1074f8244661eecddfc2a675430d8d33f62",
+                "reference": "dcbed1074f8244661eecddfc2a675430d8d33f62",
                 "shasum": ""
             },
             "require": {
@@ -635,7 +635,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-05-03T23:30:39+00:00"
+            "time": "2017-05-22T02:43:20+00:00"
         }
     ],
     "aliases": [],
