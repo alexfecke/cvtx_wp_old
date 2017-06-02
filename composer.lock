@@ -481,7 +481,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2017-06-02T08:16:48+00:00"
+            "time": "2017-06-02 08:16:48"
         },
         {
             "name": "cvtx/cvtx_spd",
@@ -489,12 +489,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_plugin_spd.git",
-                "reference": "88d29f2bd159db14e330f608de930ec09385365a"
+                "reference": "e584b0c1aa34770cc10a091959b32675085ddcc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin_spd/zipball/88d29f2bd159db14e330f608de930ec09385365a",
-                "reference": "88d29f2bd159db14e330f608de930ec09385365a",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin_spd/zipball/e584b0c1aa34770cc10a091959b32675085ddcc5",
+                "reference": "e584b0c1aa34770cc10a091959b32675085ddcc5",
                 "shasum": ""
             },
             "require": {
@@ -519,7 +519,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2017-06-01 12:59:55"
+            "time": "2017-06-02T08:26:14+00:00"
         },
         {
             "name": "cvtx/cvtx_theme_spd_bb",
@@ -527,12 +527,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_theme_spd_bb.git",
-                "reference": "b659003db981cef687628d090efab5a2c927d846"
+                "reference": "dc0bdcd5c18dd908be2c4d1df9726dc2fc75140f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spd_bb/zipball/b659003db981cef687628d090efab5a2c927d846",
-                "reference": "b659003db981cef687628d090efab5a2c927d846",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spd_bb/zipball/dc0bdcd5c18dd908be2c4d1df9726dc2fc75140f",
+                "reference": "dc0bdcd5c18dd908be2c4d1df9726dc2fc75140f",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +557,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2017-06-02T08:17:52+00:00"
+            "time": "2017-06-02T08:28:39+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
