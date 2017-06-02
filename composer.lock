@@ -489,12 +489,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_plugin_spd.git",
-                "reference": "e584b0c1aa34770cc10a091959b32675085ddcc5"
+                "reference": "363368c01a8fce17517f56638c2cef5a1d90736b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin_spd/zipball/e584b0c1aa34770cc10a091959b32675085ddcc5",
-                "reference": "e584b0c1aa34770cc10a091959b32675085ddcc5",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin_spd/zipball/363368c01a8fce17517f56638c2cef5a1d90736b",
+                "reference": "363368c01a8fce17517f56638c2cef5a1d90736b",
                 "shasum": ""
             },
             "require": {
@@ -519,7 +519,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2017-06-02T08:26:14+00:00"
+            "time": "2017-06-02T08:35:32+00:00"
         },
         {
             "name": "cvtx/cvtx_theme_spd_bb",
@@ -527,12 +527,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_theme_spd_bb.git",
-                "reference": "dc0bdcd5c18dd908be2c4d1df9726dc2fc75140f"
+                "reference": "09261ce98f6b596d63d7f36abbce65d00fa176ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spd_bb/zipball/dc0bdcd5c18dd908be2c4d1df9726dc2fc75140f",
-                "reference": "dc0bdcd5c18dd908be2c4d1df9726dc2fc75140f",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spd_bb/zipball/09261ce98f6b596d63d7f36abbce65d00fa176ad",
+                "reference": "09261ce98f6b596d63d7f36abbce65d00fa176ad",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +557,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2017-06-02T08:28:39+00:00"
+            "time": "2017-06-02T08:34:50+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
