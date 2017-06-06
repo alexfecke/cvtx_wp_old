@@ -527,12 +527,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_theme_spd_bb.git",
-                "reference": "b3dca77b2fbe3008b1b1c965d4bbb3ef2065cf74"
+                "reference": "aa44b88063cc067f86563defcd4af56163c626f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spd_bb/zipball/b3dca77b2fbe3008b1b1c965d4bbb3ef2065cf74",
-                "reference": "b3dca77b2fbe3008b1b1c965d4bbb3ef2065cf74",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spd_bb/zipball/aa44b88063cc067f86563defcd4af56163c626f8",
+                "reference": "aa44b88063cc067f86563defcd4af56163c626f8",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +557,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2017-06-06T19:56:30+00:00"
+            "time": "2017-06-06T20:00:03+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
