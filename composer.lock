@@ -108,20 +108,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.8.0",
+            "version": "4.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "24edf4daca6bc15ad3b78c5927468df487d47a37"
+                "reference": "b15c463dc04c79483058a3da16865c356393408d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/24edf4daca6bc15ad3b78c5927468df487d47a37",
-                "reference": "24edf4daca6bc15ad3b78c5927468df487d47a37",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b15c463dc04c79483058a3da16865c356393408d",
+                "reference": "b15c463dc04c79483058a3da16865c356393408d",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.8.0",
+                "johnpbloch/wordpress-core": "4.9.0",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -143,24 +143,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-06-08T15:12:19+00:00"
+            "time": "2017-11-16T01:32:51+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.8.0",
+            "version": "4.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "58f209dfd66f61c4398a47cf53e90d378abc25d7"
+                "reference": "bf2ed9c364d35bcabd15c4bb139c2581ea8513a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/58f209dfd66f61c4398a47cf53e90d378abc25d7",
-                "reference": "58f209dfd66f61c4398a47cf53e90d378abc25d7",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/bf2ed9c364d35bcabd15c4bb139c2581ea8513a9",
+                "reference": "bf2ed9c364d35bcabd15c4bb139c2581ea8513a9",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
+            },
+            "provide": {
+                "wordpress/core-implementation": "4.9.0"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -180,7 +183,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-06-08T15:12:14+00:00"
+            "time": "2017-11-16T01:32:46+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -233,10 +236,10 @@
         },
         {
             "name": "koodimonni-language/core-de_de",
-            "version": "4.8",
+            "version": "4.9",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.8/de_DE.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.9/de_DE.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -297,16 +300,16 @@
         },
         {
             "name": "oscarotero/env",
-            "version": "v1.0.2",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oscarotero/env.git",
-                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20"
+                "reference": "0f676e41d758fa984806c32e27f0cf7afa63d8db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/env/zipball/0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
-                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
+                "url": "https://api.github.com/repos/oscarotero/env/zipball/0f676e41d758fa984806c32e27f0cf7afa63d8db",
+                "reference": "0f676e41d758fa984806c32e27f0cf7afa63d8db",
                 "shasum": ""
             },
             "require": {
@@ -335,7 +338,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2016-05-08T17:14:32+00:00"
+            "time": "2017-07-17T20:41:59+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -452,12 +455,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_plugin.git",
-                "reference": "38ed5990a4f14036585c16922c6e67da073567cf"
+                "reference": "eadcda51f8d387480ad57cd53f7299d9577e0fb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin/zipball/38ed5990a4f14036585c16922c6e67da073567cf",
-                "reference": "38ed5990a4f14036585c16922c6e67da073567cf",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin/zipball/eadcda51f8d387480ad57cd53f7299d9577e0fb5",
+                "reference": "eadcda51f8d387480ad57cd53f7299d9577e0fb5",
                 "shasum": ""
             },
             "require": {
@@ -482,7 +485,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2017-06-18 21:17:21"
+            "time": "2017-11-20T21:22:36+00:00"
         },
         {
             "name": "cvtx/cvtx_spd",
@@ -528,12 +531,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_theme_spd_bb.git",
-                "reference": "e3c5230bbb749b73488c5aa09c236f1929ff2cd0"
+                "reference": "7fbffffeb2480b5936b2e9dc4a028d211d20302a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spd_bb/zipball/e3c5230bbb749b73488c5aa09c236f1929ff2cd0",
-                "reference": "e3c5230bbb749b73488c5aa09c236f1929ff2cd0",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spd_bb/zipball/7fbffffeb2480b5936b2e9dc4a028d211d20302a",
+                "reference": "7fbffffeb2480b5936b2e9dc4a028d211d20302a",
                 "shasum": ""
             },
             "require": {
@@ -558,7 +561,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2017-06-19T12:39:40+00:00"
+            "time": "2017-11-20T21:28:46+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
