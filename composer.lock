@@ -108,20 +108,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.9.0",
+            "version": "4.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "b15c463dc04c79483058a3da16865c356393408d"
+                "reference": "988875c1ec9f0474d1f77038b7a52f91125fc5f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b15c463dc04c79483058a3da16865c356393408d",
-                "reference": "b15c463dc04c79483058a3da16865c356393408d",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/988875c1ec9f0474d1f77038b7a52f91125fc5f4",
+                "reference": "988875c1ec9f0474d1f77038b7a52f91125fc5f4",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.9.0",
+                "johnpbloch/wordpress-core": "4.9.1",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -143,27 +143,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-11-16T01:32:51+00:00"
+            "time": "2017-11-29T21:57:18+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.9.0",
+            "version": "4.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "bf2ed9c364d35bcabd15c4bb139c2581ea8513a9"
+                "reference": "e47f6652557c3160ee432c2fca5594ac1a8698f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/bf2ed9c364d35bcabd15c4bb139c2581ea8513a9",
-                "reference": "bf2ed9c364d35bcabd15c4bb139c2581ea8513a9",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/e47f6652557c3160ee432c2fca5594ac1a8698f5",
+                "reference": "e47f6652557c3160ee432c2fca5594ac1a8698f5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.9.0"
+                "wordpress/core-implementation": "4.9.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -183,7 +183,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-11-16T01:32:46+00:00"
+            "time": "2017-11-29T21:57:13+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -236,10 +236,10 @@
         },
         {
             "name": "koodimonni-language/core-de_de",
-            "version": "4.9",
+            "version": "4.9.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.9/de_DE.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.9.1/de_DE.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -485,7 +485,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2017-11-20T21:22:36+00:00"
+            "time": "2017-11-20 21:22:36"
         },
         {
             "name": "cvtx/cvtx_spd",
@@ -493,12 +493,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_plugin_spd.git",
-                "reference": "b875dbc5ccc56c684c0e659cd141711d2d31e2c8"
+                "reference": "c3e116b6f5d19a89b95ae1639f043ea49d207c4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin_spd/zipball/b875dbc5ccc56c684c0e659cd141711d2d31e2c8",
-                "reference": "b875dbc5ccc56c684c0e659cd141711d2d31e2c8",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin_spd/zipball/c3e116b6f5d19a89b95ae1639f043ea49d207c4c",
+                "reference": "c3e116b6f5d19a89b95ae1639f043ea49d207c4c",
                 "shasum": ""
             },
             "require": {
@@ -523,7 +523,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2017-06-06 19:30:36"
+            "time": "2017-12-18T14:15:14+00:00"
         },
         {
             "name": "cvtx/cvtx_theme_spd_bb",
@@ -531,12 +531,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_theme_spd_bb.git",
-                "reference": "7fbffffeb2480b5936b2e9dc4a028d211d20302a"
+                "reference": "5794ec4cf7c87a3b653336487f6819889185b4d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spd_bb/zipball/7fbffffeb2480b5936b2e9dc4a028d211d20302a",
-                "reference": "7fbffffeb2480b5936b2e9dc4a028d211d20302a",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spd_bb/zipball/5794ec4cf7c87a3b653336487f6819889185b4d5",
+                "reference": "5794ec4cf7c87a3b653336487f6819889185b4d5",
                 "shasum": ""
             },
             "require": {
@@ -561,7 +561,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2017-11-20T21:28:46+00:00"
+            "time": "2017-12-18T14:15:57+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
