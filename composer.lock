@@ -485,7 +485,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2018-05-09T08:06:22+00:00"
+            "time": "2018-05-09 08:06:22"
         },
         {
             "name": "cvtx/cvtx_spd",
@@ -569,12 +569,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_theme_spdnrw.git",
-                "reference": "1e5b9d23b8c74e80029f66e1f0c282f6fc491a66"
+                "reference": "140a433aa20ba350aa26505f1198793b15cf589e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spdnrw/zipball/1e5b9d23b8c74e80029f66e1f0c282f6fc491a66",
-                "reference": "1e5b9d23b8c74e80029f66e1f0c282f6fc491a66",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spdnrw/zipball/140a433aa20ba350aa26505f1198793b15cf589e",
+                "reference": "140a433aa20ba350aa26505f1198793b15cf589e",
                 "shasum": ""
             },
             "require": {
@@ -599,7 +599,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2018-05-09T08:07:20+00:00"
+            "time": "2018-05-09T08:20:42+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
