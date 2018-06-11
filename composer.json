@@ -55,6 +55,11 @@
       "type": "vcs",
       "url": "git@github.com:alexfecke/cvtx_theme_spdnrw.git",
       "no-api": true
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:alexfecke/cvtx_theme_spdberlin.git",
+      "no-api": true
     }
   ],
   "require": {
@@ -71,7 +76,8 @@
     "cvtx/cvtx": "dev-weserems",
     "cvtx/cvtx_spd": "dev-weserems",
     "cvtx/cvtx_theme_spd_bb": "dev-weserems",
-    "cvtx/cvtx_theme_spdnrw": "dev-master"
+    "cvtx/cvtx_theme_spdnrw": "dev-master",
+    "cvtx/cvtx_theme_spdberlin": "dev-master"
   },
   "extra": {
     "installer-paths": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a81c0c457b189034071f8954b6aa8e7",
+    "content-hash": "5e595d44e2cb7e970633c6701175cfe3",
     "packages": [
         {
             "name": "composer/installers",
@@ -523,7 +523,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2018-05-24T12:02:24+00:00"
+            "time": "2018-05-24 12:02:24"
         },
         {
             "name": "cvtx/cvtx_theme_spd_bb",
@@ -562,6 +562,44 @@
                 "wordpress"
             ],
             "time": "2017-12-18 14:15:57"
+        },
+        {
+            "name": "cvtx/cvtx_theme_spdberlin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:alexfecke/cvtx_theme_spdberlin.git",
+                "reference": "f1db04b5b27f0142a75a02df295e51700c0db70a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spdberlin/zipball/f1db04b5b27f0142a75a02df295e51700c0db70a",
+                "reference": "f1db04b5b27f0142a75a02df295e51700c0db70a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.12",
+                "php": ">=5.5"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Fecke",
+                    "email": "alex@conventix.eu",
+                    "homepage": "https://conventix.eu"
+                }
+            ],
+            "description": "cvtx Agenda tool SPD Berlin theme",
+            "homepage": "https://conventix.eu",
+            "keywords": [
+                "cvtx",
+                "theme",
+                "wordpress"
+            ],
+            "time": "2018-06-11T22:20:20+00:00"
         },
         {
             "name": "cvtx/cvtx_theme_spdnrw",
@@ -686,7 +724,8 @@
         "cvtx/cvtx": 20,
         "cvtx/cvtx_spd": 20,
         "cvtx/cvtx_theme_spd_bb": 20,
-        "cvtx/cvtx_theme_spdnrw": 20
+        "cvtx/cvtx_theme_spdnrw": 20,
+        "cvtx/cvtx_theme_spdberlin": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
