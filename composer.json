@@ -73,7 +73,7 @@
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1",
-    "cvtx/cvtx": "dev-weserems",
+    "cvtx/cvtx": "dev-spdsachsen",
     "cvtx/cvtx_spd": "dev-weserems",
     "cvtx/cvtx_theme_spd_bb": "dev-weserems",
     "cvtx/cvtx_theme_spdnrw": "dev-master",
