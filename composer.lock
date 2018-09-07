@@ -569,12 +569,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_theme_spdberlin.git",
-                "reference": "c28ef5dc1644438e3a6c7bd686fafbfd3bf69133"
+                "reference": "0f1e998ef576cfd6201660f6b2a8a66eedb33ff5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spdberlin/zipball/c28ef5dc1644438e3a6c7bd686fafbfd3bf69133",
-                "reference": "c28ef5dc1644438e3a6c7bd686fafbfd3bf69133",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_theme_spdberlin/zipball/0f1e998ef576cfd6201660f6b2a8a66eedb33ff5",
+                "reference": "0f1e998ef576cfd6201660f6b2a8a66eedb33ff5",
                 "shasum": ""
             },
             "require": {
@@ -599,7 +599,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2018-09-06T14:49:19+00:00"
+            "time": "2018-09-07T07:30:48+00:00"
         },
         {
             "name": "cvtx/cvtx_theme_spdnrw",
