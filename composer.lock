@@ -485,7 +485,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2018-09-14T09:23:40+00:00"
+            "time": "2018-09-14 09:23:40"
         },
         {
             "name": "cvtx/cvtx_spd",
@@ -493,12 +493,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alexfecke/cvtx_plugin_spd.git",
-                "reference": "8dbd7734f19c68c33ab24a1cecc0636a7bc10841"
+                "reference": "667518a291b312e272bdfaae9d1165cbdc32e27f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin_spd/zipball/8dbd7734f19c68c33ab24a1cecc0636a7bc10841",
-                "reference": "8dbd7734f19c68c33ab24a1cecc0636a7bc10841",
+                "url": "https://api.github.com/repos/alexfecke/cvtx_plugin_spd/zipball/667518a291b312e272bdfaae9d1165cbdc32e27f",
+                "reference": "667518a291b312e272bdfaae9d1165cbdc32e27f",
                 "shasum": ""
             },
             "require": {
@@ -523,7 +523,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2018-09-07 09:41:38"
+            "time": "2018-09-14T16:29:27+00:00"
         },
         {
             "name": "cvtx/cvtx_theme_spd_bb",
